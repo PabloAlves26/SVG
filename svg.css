@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    position: relative;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -40px;
+    padding-top: 10px;
+}
+#wave {
+    position:absolute;
+    width: 100%;
+    margin-top: 121px;
+    z-index: -1; 
+}
+.menu ul li  {
+    display:inline;
+    margin-top: 10px;
+    margin-left: 40px;
+    padding-left: 20px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(136, 5, 5);
+}
+.menu {
+    position:relative;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    
+}
+.menu ul {
+    margin-top: -10px;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+.paragrafo {
+    text-align: justify;
+    color:rgb(250, 248, 248);
+    margin-top: -40px;;
+    margin-left: 600px;
+    padding-top: -40px;
+    padding-right: 20px;
+    float:left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 2;
+}
+.formulario {
+    position: relative;
+    margin-right: 20px;
+    padding-top: 7px;
+    padding-right: 10px;
+    float: right;
+    color: black;
+}
+.parag {
+    position: relative;
+}
+.paragrafo1 {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 200px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
